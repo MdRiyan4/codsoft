@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header{
+    height: 10%;
+    width: 80%;
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.header-logo{
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.header-left span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.header-right a{
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+    font-weight: bold;
+}
+.menu{
+    display: none;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.header-right button{
+    color: black;
+    height: 2.5rem;
+    width: 7.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.main{
+    height: 80%;
+    width: 80%;
+    margin-top: 0.4rem; 
+    display: flex;
+}
+.main-left{
+    height: 100%;
+    width: 70%;
+    /* border: solid yellow 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.main-left para{
+    background-color: rgb(52, 52, 52);
+    width: 34rem;
+    opacity: 70%;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 10rem;
+}
+.main-left h1{
+    font-weight: bold;
+    text-align: left;
+    font-size: 5.5rem;
+}
+.main-left p{
+    opacity: 70%;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.main-left div{
+    display: flex;
+    gap: 3rem;
+}
+.main-left button{
+    color: black;
+    height: 2.5rem;
+    width: 7.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;    
+}
+.main-right{
+    height: 100%;
+    width: 30%;
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.main-right img{
+    mix-blend-mode: lighten;
+    height: 25rem;
+}
+.main-right button{
+    color: black;
+    height: 2.5rem;
+    width: 7.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;  
+}
+.footer{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px gray;
+}
