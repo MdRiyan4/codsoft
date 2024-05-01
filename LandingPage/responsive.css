@@ -1,0 +1,119 @@
+@media (width<1120px) {
+    .header{
+        width: 90%;
+    }
+    .header-right{
+        gap: 2rem;
+    }
+    .header-logo{
+        height: 2rem;
+        width: 2rem;
+    }
+    .header-left span{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+@media (width<870px) {
+    .header-right button{
+        height: 2.1rem;
+        width: 6.5rem;
+    }
+    .header-right{
+        gap: 1.3rem;
+    }
+}
+@media (width<750px) {
+    .header-right{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (width<425px) {
+    .header-logo{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .header-left span{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .menu{
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+}
+@media (width<1160px) {
+    .main-left h1{
+        font-size: 5rem;
+    }
+}
+@media (width<1120px) {
+    .main{
+        width: 90%;
+    }
+    .main-left h1{
+        font-size: 4rem;
+    }
+}
+@media (width<750px) {
+    .page{
+        gap: 3rem;
+    }
+    .main-right{
+        display: none;
+    }
+}
+@media (width<600px) {
+    .main-left para{
+        width: 30rem;
+        font-size: 1.2rem;
+    }
+}
+@media (width<530px) {
+    .main-left para{
+        width: 26.5rem;
+        font-size: 1.1rem;
+    }
+}
+@media (width<510px) {
+    .main-left h1{
+        font-size: 3.5rem;
+    }
+}
+@media (width<470px) {
+    .main-left para{
+        width: 20rem;
+        font-size: 1.1rem;    
+    }
+}
+@media (width<446px) {
+    .main-left h1{
+        font-size: 3rem;
+    }
+}
+@media (width<342px) {
+    .page{
+        gap: 6rem;
+    }
+}
+@media (width<316px) {
+    .page{
+        gap: 7rem;
+    }
+    .footer p{
+        font-size: 0.2rem;
+    }
+}
+@media (width<430px) {
+    .footer p{
+        font-size: 0.7rem;
+    }
+}
+@media (width<1120px) {
+    .footer{
+        width: 90%;
+    }
+}
